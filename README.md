@@ -8,9 +8,9 @@ A simple project to practice basic HTML structure and linking between pages. Thi
 odin-recipes/
 |-- index.html
 |-- recipes/
-    |-- lasagna.html
-    |-- recipe2.html
-    |-- recipe3.html
+    |-- shiro.html
+    |-- kitfo.html
+    |-- tibs.html
 ```
 
 ## Iterations
@@ -22,12 +22,12 @@ odin-recipes/
 
 ### Iteration 2: Recipe Page
 1. Create a `recipes` directory within `odin-recipes`.
-2. Add an HTML file for your recipe (e.g., `lasagna.html`) inside the `recipes` directory.
+2. Add an HTML file for your recipe (e.g., `shiro.html`) inside the `recipes` directory.
    - Include the usual boilerplate HTML.
    - Add an `<h1>` heading with the recipe's name as its content.
 3. In the `index.html` file, add a link to the recipe page under the `<h1>Odin Recipes</h1>` heading:
    ```html
-   <a href="recipes/lasagna.html">Lasagna</a>
+   <a href="recipes/shiro.html">Lasagna</a>
    ```
 
 ### Iteration 3: Recipe Page Content
@@ -43,9 +43,9 @@ odin-recipes/
    - Use an unordered list to display all recipe links:
      ```html
      <ul>
-       <li><a href="recipes/lasagna.html">Lasagna</a></li>
-       <li><a href="recipes/recipe2.html">Recipe 2</a></li>
-       <li><a href="recipes/recipe3.html">Recipe 3</a></li>
+       <li><a href="recipes/shiro.html">Lasagna</a></li>
+       <li><a href="recipes/kitfo.html">Recipe 2</a></li>
+       <li><a href="recipes/tibs.html">Recipe 3</a></li>
      </ul>
      ```
 
